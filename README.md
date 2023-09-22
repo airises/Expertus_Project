@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+<!--
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+// О ПРОЕКТЕ !!! //
 
-## Available Scripts
+Expertus - Ваш доступ к миру экспертов
 
-In the project directory, you can run:
+--**Описание:**--
 
-### `npm start`
+Expertus - это инновационная онлайн-платформа, созданная для того, чтобы облегчить поиск 
+и консультирование специалистов из разных областей, включая врачей, юристов, учителей и многих других. 
+С этой платформой у вас всегда будет под рукой доступ к опыту и знаниям лучших экспертов, готовых помочь 
+вам решить ваши вопросы и задачи.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+--**Основные возможности:**--
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+// 1. Поиск экспертов: 
+Expertus предоставляет пользователям удобный инструмент для поиска и выбора эксперта в соответствии с их 
+потребностями. Вы можете легко найти специалиста по ключевым словам, области знаний или географическому местоположению.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+// 2. Консультирование онлайн: 
+Платформа позволяет проводить консультации с экспертами в режиме онлайн. Это удобно для получения советов, 
+рекомендаций или даже диагнозов без необходимости физического посещения офиса.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+// 3. Оценка и обратная связь: 
+Пользователи могут оценивать работу экспертов и оставлять отзывы. Эта функция помогает другим пользователям 
+выбирать лучших специалистов и также мотивирует экспертов поддерживать высокие стандарты качества.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+// 4. Рейтинг экспертов: 
+Expertus предоставляет рейтинги для экспертов на основе их профессиональных навыков и отзывов от клиентов. 
+Это помогает пользователям быстро определить, кто из специалистов наиболее подходит для их потребностей.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+// 5. Безопасность и конфиденциальность: 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Платформа обеспечивает высокий уровень безопасности и конфиденциальности данных пользователей, гарантируя, 
+что ваши личные и медицинские данные, а также конфиденциальная информация, находятся под надежной защитой.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Expertus - это ваш надежный компаньон в поиске квалифицированных специалистов и решении ваших задач. 
+Независимо от того, нужно ли вам медицинское консультирование, юридический совет или помощь в образовательных 
+вопросах, Expertus предоставит вам доступ к мировым экспертам, готовым помочь вам достичь ваших целей и 
+решить ваши проблемы. Удобство, надежность и качество - вот то, что делает Expertus первым выбором для тех, 
+кто ищет экспертов в разных сферах жизни.
+ -->
