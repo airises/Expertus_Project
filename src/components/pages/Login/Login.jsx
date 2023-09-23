@@ -1,10 +1,35 @@
 import React from "react";
-// import Image from "../../../assets/images/image-main.png";
 import Logo from "../../../assets/images/logotype.svg";
 import "./Login.scss";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useContext, useState } from "react";
+import { AuthContext } from "../../../context/authContext";
 
 const Login = () => {
+  const [inputs, setInputs] = useState({
+    name: "",
+    password: "",
+  });
+  const [err, setErr] = useState(null);
+
+  const navigate=useNavigate();
+
+  const handleChange = (e) => {
+    setInputs((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  };
+
+  const {login} = useContext(AuthContext)
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    try {
+      await login(inputs);
+      navigate("/")
+    } catch (err) {
+      setErr(err.response.data);
+    }
+  };
   return (
     <div className="login">
       <div className="left">
@@ -17,8 +42,8 @@ const Login = () => {
           <button>Зарегистрироваться</button>
         </Link>
         <form>
-          <input type="text" placeholder="Email" />
-          <input type="text" placeholder="Пароль" />
+          <input name="email" type="text" placeholder="Email" onChange={handleChange} />
+          <input name="password" type="password" placeholder="Пароль" onChange={handleChange} />
           <div>
             <input
               type="checkbox"
@@ -26,7 +51,8 @@ const Login = () => {
             />
             <label>Запомнить меня</label>
           </div>
-          <button>Войти</button>
+          {err && err}
+          <button onClick={handleLogin}>Войти</button>
         </form>
       </div>
       <div className="right">
