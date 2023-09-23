@@ -14,10 +14,9 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 153px;
       img {
-        width: 66px;
-        height: 58px;
+        width: 15rem;
+        margin-bottom: 94px;
         margin-right: 5px;
       }
       h3 {
@@ -25,8 +24,8 @@
       }
     }
     h1 {
-      font-size: 62px;
-      margin-bottom: 60px;
+      font-size: 42px;
+      margin-bottom: 20px;
     }
     button {
       width: 427px;
@@ -35,7 +34,7 @@
       border: none;
       border-radius: 10px;
       color: white;
-      font-size: 12px;
+      font-size: 16px;
       font-weight: bold;
       margin-bottom: 20px;
       cursor: pointer;
@@ -60,7 +59,7 @@
         border: none;
         border-radius: 10px;
         color: white;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: bold;
         cursor: pointer;
       }
