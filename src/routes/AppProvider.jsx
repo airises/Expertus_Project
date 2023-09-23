@@ -1,26 +1,18 @@
-import { createBrowserRouter } from "react-router-dom";
-import { PrivateRoute } from "./PrivateRoute";
+import React from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
+import Login from "../components/pages/Login/Login";
+import Register from "../components/pages/Register/Register";
 
-export const routes = createBrowserRouter([
-  {
-    path: "/",
-    element: (
-      <PrivateRoute
-        component={<SignInPage />}
-        roles={[USER_ROLE.GUEST]}
-        fallBacPath="/mainPage"
-      />
-    ),
-  },
+function RouterProvider() {
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+    </div>
+  );
+}
 
-  {
-    path: "/signup",
-    element: (
-      <PrivateRoute
-        component={<SignUpPage />}
-        roles={[USER_ROLE.GUEST]}
-        fallBacPath="/mainPage"
-      />
-    ),
-  },
-]);
+export default RouterProvider;
