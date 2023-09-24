@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Logo from "../../../assets/images/logotype.svg";
 import "./Register.scss";
 import { Link, useNavigate } from "react-router-dom";
@@ -13,8 +13,8 @@ const Register = () => {
   });
   const [err, setErr] = useState(null);
 
-  const API = 'http://localhost:8000/users'
-  const navigate = useNavigate()
+  const API = "http://localhost:8000/users";
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setInputs((prev) => ({ ...prev, [e.target.name]: e.target.value }));
@@ -25,13 +25,13 @@ const Register = () => {
 
     try {
       await axios.post(`${API}`, inputs);
-      navigate('/')
+      navigate("/");
     } catch (err) {
       setErr(err.response.data);
     }
   };
 
-  console.log(err)
+  console.log(err);
   return (
     <div className="register">
       <div className="left">
@@ -40,10 +40,30 @@ const Register = () => {
         </div>
         <h1>Регистрация</h1>
         <form>
-          <input type="text" placeholder="Имя" name="firstName" onChange={handleChange} />
-          <input type="text" placeholder="Фамилия" name="lastName" onChange={handleChange} />
-          <input type="text" placeholder="Email" name="email" onChange={handleChange} />
-          <input type="password" placeholder="Пароль" name="password" onChange={handleChange} />
+          <input
+            type="text"
+            placeholder="Имя"
+            name="firstName"
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            placeholder="Фамилия"
+            name="lastName"
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            placeholder="Email"
+            name="email"
+            onChange={handleChange}
+          />
+          <input
+            type="password"
+            placeholder="Пароль"
+            name="password"
+            onChange={handleChange}
+          />
           <div></div>
           {err && err}
           <button onClick={handleClick}>Регистрация</button>

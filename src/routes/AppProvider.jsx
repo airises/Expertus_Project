@@ -7,6 +7,7 @@ import Main from "../components/Main/Main";
 import Discussions from "../components/Main/Discussions/Discussions";
 import Article from "../components/Article/Article";
 import Help from "../components/Help/Help";
+import { Profile } from "../components/pages/profile/Profile";
 function RouterProvider() {
   return (
     <div>
@@ -16,10 +17,11 @@ function RouterProvider() {
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<Main />} />
         <Route path="/discussions" element={<Discussions />} />
-        <Route path="/help" element={<Help/>} />
-        <Route path="/article" element={<Article/>} />
+        <Route path="/help" element={<Help />} />
+        <Route path="/article" element={<Article />} />
         <Route path="/register" element={<Register />} />
         <Route path="*" element={<Navigate to="/" />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </div>
   );

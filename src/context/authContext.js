@@ -12,11 +12,11 @@ export const AuthContextProvider = ({ children }) => {
     const res = await axios.get("http://localhost:8000/users", inputs, {
       withCredentials: true,
     });
-    let foundObj = res.data.filter((person)=>person.email === inputs.email);
-    if(foundObj.password === inputs.password){
-        setCurrentUser(foundObj.data)
-    }else{
-        alert('некорректный email или пароль')
+    let foundObj = res.data.filter((person) => person.email === inputs.email);
+    if (foundObj.password === inputs.password) {
+      setCurrentUser(foundObj.data);
+    } else {
+      alert("некорректный email или пароль");
     }
   };
 

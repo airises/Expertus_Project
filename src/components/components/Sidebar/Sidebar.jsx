@@ -40,16 +40,18 @@ const Sidebar = () => {
             <span>Петиции</span>
           </div>
           <span style={{ marginTop: "100px" }}>Другое</span>
-          <div className="item">
-            <AccountCircleIcon />
-            <span>Личный кабинет</span>
-          </div>
-         <NavLink to={"/help"}>
-         <div className="item">
-            <HelpIcon />
-            <span>Помощь</span>
-          </div>
-         </NavLink>
+          <NavLink to={"/profile"}>
+            <div className="item">
+              <AccountCircleIcon />
+              <span>Личный кабинет</span>
+            </div>
+          </NavLink>
+          <NavLink to={"/help"}>
+            <div className="item">
+              <HelpIcon />
+              <span>Помощь</span>
+            </div>
+          </NavLink>
         </div>
       </div>
     </div>

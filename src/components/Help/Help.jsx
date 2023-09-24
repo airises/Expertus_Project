@@ -18,13 +18,32 @@ const Help = () => {
         </div>
         <div className="block--blocks">
           <div className="block--blocks__3con">
-            <div className="block--blocks__3con--con1"></div>
-            <div className="block--blocks__3con--con2"></div>
-            <div className="block--blocks__3con--con3"></div>
+            <div className="block--blocks__3con--con1">
+              <h5>
+                Другим важным элементом в современном образовании стали
+                компьютерные программы и образовательные платформы. Они
+                позволяют учителям создавать интерактивные уроки и
+                персонализированные учебные планы для каждого ученика, что
+                способствует более эффективному обучению.
+              </h5>
+            </div>
+            <div className="block--blocks__3con--con2">
+              <h5>
+                Технологические инновации также расширили возможности
+                исследований и работы с информацией. Современные библиотеки
+                стали цифровыми, а исследователи могут легко получать доступ к
+                актуальным научным публикациям и базам данных через интернет.
+              </h5>
+            </div>
+            <div className="block--blocks__3con--con3">
+              <h5>
+                Однако важно помнить, что с ростом технологических возможностей
+                возникают и новые вызовы, такие как проблемы безопасности данных
+                и кибербуллинг. Поэтому в современном образовании также
+              </h5>
+            </div>
           </div>
-          <div className="block--blocks__information">
-            <div className="block--blocks__information--infoBlock"></div>
-          </div>
+          <div className="block--blocks__information"></div>
         </div>
         <div className="block--bok">
           <h1>Хотите развлечться?</h1>
