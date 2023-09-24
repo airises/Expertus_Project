@@ -1,0 +1,117 @@
+#help {
+  margin-top: -750px;
+  .block {
+    &--reg {
+      h1 {
+        color: #f27136;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Lacquer;
+        font-size: 35px;
+      }
+      &__greyBlock {
+        margin-top: 52px;
+        margin-left: 291px;
+        margin-bottom: 40px;
+        width: 299px;
+        height: 178px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #d9d9d9;
+        h2 {
+          padding: 16px;
+          color: #000;
+          font-family: Lacquer;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          width: 276px;
+          height: 109px;
+        }
+      }
+    }
+    &--blocks {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      &__3con {
+        margin-left: 181px;
+        &--con1 {
+          width: 454px;
+          height: 147px;
+          flex-shrink: 0;
+          border-radius: 14px;
+          background: #d9d9d9;
+        }
+        &--con2 {
+          margin: 21px 0;
+          width: 454px;
+          height: 147px;
+          flex-shrink: 0;
+          border-radius: 14px;
+          background: #d9d9d9;
+        }
+        &--con3 {
+          width: 454px;
+          height: 147px;
+          flex-shrink: 0;
+          border-radius: 14px;
+          background: #d9d9d9;
+        }
+      }
+      &__information {
+        h1 {
+          color: #f27136;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          font-family: Lacquer;
+          font-size: 35px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          width: 468px;
+          height: 41px;
+          flex-shrink: 0;
+        }
+        &--infoBlock {
+          width: 445px;
+          height: 493px;
+          flex-shrink: 0;
+          border-radius: 20px;
+          background: #d9d9d9;
+        }
+      }
+    }
+    &--bok {
+      margin-left: 1016px;
+      h1 {
+        margin: 60px 0 24px 0;
+        color: #f27136;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Lacquer;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      &__bokk {
+        width: 400px;
+        height: 182px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #d9d9d9;
+        h2 {
+          padding: 20px;
+          color: #181818;
+          font-family: Lacquer;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          width: 385px;
+          height: 184px;
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+}
