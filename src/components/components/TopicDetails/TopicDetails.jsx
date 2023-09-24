@@ -28,7 +28,7 @@ const TopicDetails = () => {
                       <br></br>
                       <p>{topicDetails.solution}</p>
                       </div>
-                      <textarea rows={7} />
+                      <textarea rows={2} />
                       <br></br>
                       <button>Добавить комментарий</button>
                   </div>
