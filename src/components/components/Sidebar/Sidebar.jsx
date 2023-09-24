@@ -1,13 +1,13 @@
-import React from 'react'
-import Logo from '../../../assets/images/ozgort-logo.png'
-import './Sidebar.scss'
-import HomeIcon from '@mui/icons-material/Home';
-import ArticleIcon from '@mui/icons-material/Article';
-import ExtensionIcon from '@mui/icons-material/Extension';
-import ForumIcon from '@mui/icons-material/Forum';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import HelpIcon from '@mui/icons-material/Help';
-import { Link } from 'react-router-dom';
+import React from "react";
+import Logo from "../../../assets/images/ozgort-logo.png";
+import "./Sidebar.scss";
+import HomeIcon from "@mui/icons-material/Home";
+import ArticleIcon from "@mui/icons-material/Article";
+import ExtensionIcon from "@mui/icons-material/Extension";
+import ForumIcon from "@mui/icons-material/Forum";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import HelpIcon from "@mui/icons-material/Help";
+import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -17,38 +17,41 @@ const Sidebar = () => {
           <img src={Logo} alt="logo" />
         </div>
         <div className="menu">
-        <span>Меню</span>
-        <Link to='/' style={{textDecoration: 'none', color: "#273240"}}>
+          <span>Меню</span>
           <div className="item">
             <HomeIcon />
-            <span>Главная</span>
+            <NavLink to={"/home"}>
+              <span>Главная</span>
+            </NavLink>
           </div>
-          </Link>
-          <Link to='/articles' style={{textDecoration: 'none', color: "#273240"}}>
-          <div className="item">
-            <ArticleIcon />
-            <span>Статьи</span>
-          </div>
-          </Link>
-          <Link to='/tests' style={{textDecoration: 'none', color: "#273240"}}>
+          <NavLink to={"/article"}>
+            <div className="item">
+              <ArticleIcon />
+              <span>Статьи</span>
+            </div>
+          </NavLink>
+
           <div className="item">
             <ExtensionIcon />
             <span>Интерактив</span>
           </div>
-          </Link>
-          <span style={{marginTop: '100px'}}>Другое</span>
-          <Link to='/profile' style={{textDecoration: 'none', color: "#273240"}}>
           <div className="item">
-            <AccountCircleIcon />
-            <span>Личный кабинет</span>
+            <ForumIcon />
+            <span>Петиции</span>
           </div>
-          </Link>
-         <Link to="/help" style={{textDecoration: 'none', color: "#273240"}}>
-         <div className="item">
-            <HelpIcon />
-            <span>Помощь</span>
-          </div>
-         </Link>
+          <span style={{ marginTop: "100px" }}>Другое</span>
+          <NavLink to={"/profile"}>
+            <div className="item">
+              <AccountCircleIcon />
+              <span>Личный кабинет</span>
+            </div>
+          </NavLink>
+          <NavLink to={"/help"}>
+            <div className="item">
+              <HelpIcon />
+              <span>Помощь</span>
+            </div>
+          </NavLink>
         </div>
       </div>
     </div>

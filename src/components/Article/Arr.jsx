@@ -1,38 +1,38 @@
 export const ArrArticle = [
   {
     id: 1,
-    img: "https://fenprobe.exintra.net/sites/30/upload/userfiles/1506961674_news.jpg",
+    img: "https://www.knu.kg/ky/wp-content/uploads/2023/09/05-4.jpg",
     biography:
-      "          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum dolorum, et corporis beatae ex quis, nisi possimus qui minima, in veritatis iusto. Voluptatibus nam quis libero error dolore. Saepe, velit mollitia animi eveniet ad corporis ipsam asperiores ut, perspiciatis eos maxime ab numquam architecto, esse ullam quos recusandae impedit."
-      
-  },{
+      " Свежие новости. 23-24 сенября в Бишкеке прошел Хакатон под названием «IT для лучших законов в Кыргызстане» . Участвовали ококло 30 команд и выиграли команда 'ОЗГОРТ' ",
+  },
+  {
     id: 2,
-    img: "https://fenprobe.exintra.net/sites/30/upload/userfiles/1506961674_news.jpg",
+    img: "https://s16.stc.yc.kpcdn.net/share/i/12/13382050/wr-750.webp",
     biography:
-      "          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum dolorum, et corporis beatae ex quis, nisi possimus qui minima, in veritatis iusto. Voluptatibus nam quis libero error dolore. Saepe, velit mollitia animi eveniet ad corporis ipsam asperiores ut, perspiciatis eos maxime ab numquam architecto, esse ullam quos recusandae impedit."
-      
-  },{
+      "          «Яндекс Go» в Кыргызстане запустил бесплатные поездки для четырех благотворительных организаций.",
+  },
+  {
     id: 3,
-    img: "https://fenprobe.exintra.net/sites/30/upload/userfiles/1506961674_news.jpg",
+    img: "https://s12.stc.yc.kpcdn.net/share/i/12/13379448/wr-960.webp",
     biography:
-      "          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum dolorum, et corporis beatae ex quis, nisi possimus qui minima, in veritatis iusto. Voluptatibus nam quis libero error dolore. Saepe, velit mollitia animi eveniet ad corporis ipsam asperiores ut, perspiciatis eos maxime ab numquam architecto, esse ullam quos recusandae impedit."
-      
-  },{
+      "          Студенты из КРСУ имени Б.Н.Ельцина представляют Кыргызстан на молодежном медиафоруме «Игры разума» в российском Красноярске. Трехдневный форум в Сибирском федеральном университете, организованный по инициативе Министерства науки и высшего образования России,собрал более 150 участников из России, Беларуси, Кыргызстана, Армении и Таджикистана. Об этом сообщает пресс-служба КРСУ.",
+  },
+  {
     id: 4,
-    img: "https://fenprobe.exintra.net/sites/30/upload/userfiles/1506961674_news.jpg",
+    img: "https://www.undp.org/sites/g/files/zskgke326/files/2022-06/IMG_8080.JPG",
     biography:
-      "          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum dolorum, et corporis beatae ex quis, nisi possimus qui minima, in veritatis iusto. Voluptatibus nam quis libero error dolore. Saepe, velit mollitia animi eveniet ad corporis ipsam asperiores ut, perspiciatis eos maxime ab numquam architecto, esse ullam quos recusandae impedit."
-      
-  },{
+      "         Бишкек – 20 мая, 2022 года – Состоялась презентация результатов национальных консультаций «Стокгольм+50» в Кыргызстане при поддержке Министерства природных ресурсов, экологии и технического надзора Кыргызской Республики и при содействии ПРООН в Кыргызской Республике. В мероприятии приняли участие начальник управления политических и экономических исследований Администрации Президента КР, заместитель министра природных ресурсов, экологии и технического надзора КР, заместительница Постоянной представительницы ПРООН в КР, региональный директор ЮНЕП, а также представители организаций гражданского общества, академических кругов, бизнеса, СМИ, экспертного сообщества, представители министерств, ведомств и международных организаций.",
+  },
+  {
     id: 5,
-    img: "https://fenprobe.exintra.net/sites/30/upload/userfiles/1506961674_news.jpg",
+    img: "https://data.kaktus.media/image/big/2023-04-28_10-26-21_290676.jpg",
     biography:
-      "          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum dolorum, et corporis beatae ex quis, nisi possimus qui minima, in veritatis iusto. Voluptatibus nam quis libero error dolore. Saepe, velit mollitia animi eveniet ad corporis ipsam asperiores ut, perspiciatis eos maxime ab numquam architecto, esse ullam quos recusandae impedit."
-      
-  },{
+      "         Новая серия банкнот посвящена 30-летию со дня введения национальной валюты и отражает эволюцию национальной валюты с начала ее введения в обращение в 1993 году до настоящего времени: от простых купонов, содержащих минимальный комплекс защитных элементов, до банкнот с высоким уровнем защиты от фальшивомонетничества.",
+  },
+  {
     id: 6,
-    img: "https://fenprobe.exintra.net/sites/30/upload/userfiles/1506961674_news.jpg",
+    img: "https://data.kaktus.media/image/big/2023-08-30_15-45-15_596821_w.jpg",
     biography:
-      "          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum dolorum, et corporis beatae ex quis, nisi possimus qui minima, in veritatis iusto. Voluptatibus nam quis libero error dolore. Saepe, velit mollitia animi eveniet ad corporis ipsam asperiores ut, perspiciatis eos maxime ab numquam architecto, esse ullam quos recusandae impedit."
-      
-  }];
+      "          По словам реализаторов, этот уголь более выгоден для частного потребления - отопления жилых домов. Другой казахстанский уголь - Шабыркуль - в основном берут на производство для обжига кирпича, плавки металла.",
+  },
+];

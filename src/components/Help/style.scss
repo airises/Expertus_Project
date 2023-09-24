@@ -18,8 +18,9 @@
         border-radius: 20px;
         background: #d9d9d9;
         h2 {
+          width: 00px;
           padding: 16px;
-          color: #000;
+          color: orange;
           font-family: Lacquer;
           font-size: 20px;
           font-style: normal;
@@ -42,6 +43,10 @@
           flex-shrink: 0;
           border-radius: 14px;
           background: #d9d9d9;
+          h5 {
+            padding: 15px;
+            color: orange;
+          }
         }
         &--con2 {
           margin: 21px 0;
@@ -50,6 +55,10 @@
           flex-shrink: 0;
           border-radius: 14px;
           background: #d9d9d9;
+          h5 {
+            padding: 15px;
+            color: orange;
+          }
         }
         &--con3 {
           width: 454px;
@@ -57,21 +66,13 @@
           flex-shrink: 0;
           border-radius: 14px;
           background: #d9d9d9;
+          h5 {
+            padding: 15px;
+            color: orange;
+          }
         }
       }
       &__information {
-        h1 {
-          color: #f27136;
-          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          font-family: Lacquer;
-          font-size: 35px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: normal;
-          width: 468px;
-          height: 41px;
-          flex-shrink: 0;
-        }
         &--infoBlock {
           width: 445px;
           height: 493px;
@@ -83,6 +84,8 @@
     }
     &--bok {
       margin-left: 1016px;
+      margin-top: -623px;
+
       h1 {
         margin: 60px 0 24px 0;
         color: #f27136;
