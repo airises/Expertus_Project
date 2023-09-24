@@ -2,10 +2,12 @@
     width: 240px;
     background-color: #F1F2F7;
     height: 100vh;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
     font-size: 16px;
     color: #273240;
-
+    
     .container{
         display: flex;
         flex-direction: column;

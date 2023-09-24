@@ -1,0 +1,57 @@
+.topicDetails{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://img.freepik.com/free-photo/wooden-table-product-background_53876-90059.jpg?w=740&t=st=1695518540~exp=1695519140~hmac=c443a523ca8979a93cd9df3d659f6d2739110baf7aa8300a5f64ce7e076eff79') center center no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    .container{
+        background-color: white;
+        width: 80%;
+        height: 600px;
+        border-radius: 10px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        .detailsInfo{
+            display: flex;
+            gap: 20px;
+            img{
+                width: 450px;
+                height: 500px;
+                object-fit: cover;
+            }
+
+            .infoBlock{
+                h3{
+                color: orange;
+                }
+
+                .item{
+                    margin-bottom: 50px;
+                }
+
+                textarea{
+                    width: 650px;
+                    border: none;
+                    background-color: rgb(198, 198, 204);
+                    border-radius: 10px;
+                    padding: 5px;
+                }
+                button{
+                    background-color: orange;
+                    color: white;
+                    padding: 10px 10px;
+                    border: none;
+                    border-radius: 5px;
+                    margin: 0 auto;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+    }
+}

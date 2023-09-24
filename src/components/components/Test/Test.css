@@ -1,0 +1,40 @@
+/* src/Test.css */
+
+.test {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .question {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  
+  .options button {
+    margin-top: 10px;
+    margin-right: 60px;
+    padding: 10px 20px;
+    border: 1px solid #ce6e2a;
+    background-color: #ce6e2a;
+    cursor: pointer;
+    width: 300px;
+    height: 75px;
+  }
+  
+  .options button:hover {
+    background-color: #be9191;
+  }
+  .title {
+  color: #ce6e2a;
+  margin-bottom: 30px;
+  }
+  .res {
+    width: 230px;
+    height: 70px;
+    margin-left: 500px;
+    background-color: #83a257;
+    font-size: 20px;
+  padding-top: 20px;
+  }
+  
