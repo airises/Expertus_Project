@@ -20,14 +20,17 @@ const Sidebar = () => {
           <span>Меню</span>
           <div className="item">
             <HomeIcon />
-            <NavLink to={"/home"} >
+            <NavLink to={"/home"}>
               <span>Главная</span>
             </NavLink>
           </div>
-          <div className="item">
-            <ArticleIcon />
-            <span>Статьи</span>
-          </div>
+          <NavLink to={"/article"}>
+            <div className="item">
+              <ArticleIcon />
+              <span>Статьи</span>
+            </div>
+          </NavLink>
+
           <div className="item">
             <ExtensionIcon />
             <span>Интерактив</span>
@@ -41,10 +44,12 @@ const Sidebar = () => {
             <AccountCircleIcon />
             <span>Личный кабинет</span>
           </div>
-          <div className="item">
+         <NavLink to={"/help"}>
+         <div className="item">
             <HelpIcon />
             <span>Помощь</span>
           </div>
+         </NavLink>
         </div>
       </div>
     </div>
