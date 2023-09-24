@@ -11,10 +11,10 @@ import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
-    <div className='sidebar'>
+    <div className="sidebar">
       <div className="container">
-        <div className='logoContainer'>
-            <img src={Logo} alt="logo" />
+        <div className="logoContainer">
+          <img src={Logo} alt="logo" />
         </div>
         <div className="menu">
         <span>Меню</span>
@@ -41,14 +41,16 @@ const Sidebar = () => {
             <AccountCircleIcon />
             <span>Личный кабинет</span>
           </div>
-          <div className="item">
+         <Link to={"/help"}>
+         <div className="item">
             <HelpIcon />
             <span>Помощь</span>
           </div>
-          </div>
+         </Link>
         </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;

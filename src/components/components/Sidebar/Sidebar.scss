@@ -45,4 +45,28 @@
             }
         }
     }
-}
+    .menu {
+      span {
+        font-size: 12px;
+      }
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        cursor: pointer;
+        img {
+          width: 30px;
+        }
+        span {
+          font-size: 14px;
+        }
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+  }
+

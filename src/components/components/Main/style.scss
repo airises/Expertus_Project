@@ -1,0 +1,99 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .blocks {
+    margin-bottom: 36px;
+    padding: 33px;
+    width: 640px;
+    height: 317px;
+    flex-shrink: 0;
+    border-radius: 69px;
+    background: #d9d9d9;
+    &--greyBlock {
+      h2 {
+        font-family: Inter;
+        color: #000;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      p {
+        margin: 28px 0 15px 0;
+        color: #000;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      &__btns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &--btnPetinsi {
+          cursor: pointer;
+          margin-right: 67px;
+          border-radius: 39px;
+          background: #ffcc29;
+          width: 120px;
+          height: 38px;
+          outline: none;
+          border: none;
+          color: #000;
+          font-family: Inter;
+          font-size: 20px;
+          font-weight: 400;
+        }
+        &--btnObs {
+          cursor: pointer;
+          border-radius: 39px;
+          background: #ffcc29;
+          width: 120px;
+          height: 38px;
+          outline: none;
+          border: none;
+          color: #000;
+          font-family: Inter;
+          font-size: 20px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  .lenta {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    .container {
+      // height: 187px;
+      // width: 679px;
+      min-height: 80px;
+      padding: 13px 24px 1px 19px;
+      border-radius: 4px;
+      background: #f6f6f6;
+      margin: 10px;
+      &--block {
+        &__text {
+          width: 359px;
+          color: #2c8ecc;
+          font-family: Inter;
+          font-size: 14.875px;
+          font-weight: 400;
+          line-height: 21px;
+          text-decoration-line: underline;
+          cursor: pointer;
+        }
+        &__image {
+          img {
+            width: 130px;
+            height: 130px;
+            margin-left: 482px;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}

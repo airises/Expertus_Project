@@ -7,11 +7,16 @@ import Add from "../components/components/Form/Add";
 import TopicDetails from "../components/components/TopicDetails/TopicDetails";
 import Test from "../components/components/Test/Test";
 import Article from "../components/components/Articles/Articles";
+import { Help } from "@mui/icons-material";
 function RouterProvider() {
   return (
     <div>
+
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
+        {/* <Route path="/home" element={<Main />} /> */}
+        <Route path="/help" element={<Help/>} />
+        <Route path="/article" element={<Article/>} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login/>} />
         <Route path="/add" element={<Add />} />

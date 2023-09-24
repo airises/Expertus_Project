@@ -35,7 +35,7 @@ const Login = () => {
       <div className="left">
         <div className="logo-container">
           <img src={Logo} alt="logo" />
-          <h3>Өзгөрт</h3>
+          {/* <h3>Өзгөрт</h3> */}
         </div>
         <h1>Войти</h1>
         <Link to="/register">
