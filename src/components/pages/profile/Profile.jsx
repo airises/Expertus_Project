@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { storage } from "../../../config/firebaseConfig";
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import { Avatar, styled } from "@mui/material";
-
+import './Profile.scss'
 import { NavLink } from "react-router-dom";
 
 export const Profile = () => {
@@ -76,8 +76,18 @@ export const Profile = () => {
   };
 
   return (
+    <div style={{
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      height: '100vh',
+      width: '100vw',
+      padding: "20px"
+    }}>
     <div
       style={{
+        backgroundColor: "#F1F2F7",
+        borderRadius: "10px",
         display: "flex",
         flexDirection: "column",
         gap: "20px",
@@ -89,7 +99,7 @@ export const Profile = () => {
       {error && <p>{error}</p>}
       <div
         style={{
-          marginLeft: "8rem",
+          marginLeft: "2rem",
         }}
       >
         <label htmlFor="file-input">
@@ -209,6 +219,7 @@ export const Profile = () => {
           </div>
         </div>
       </StyledFormContainer>
+    </div>
     </div>
   );
 };

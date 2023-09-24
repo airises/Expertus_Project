@@ -37,11 +37,13 @@ const Sidebar = () => {
           </div>
           </Link>
           <span style={{marginTop: '100px'}}>Другое</span>
+          <Link to='/profile' style={{textDecoration: 'none', color: "#273240"}}>
           <div className="item">
             <AccountCircleIcon />
             <span>Личный кабинет</span>
           </div>
-         <Link to={"/help"}>
+          </Link>
+         <Link to="/help" style={{textDecoration: 'none', color: "#273240"}}>
          <div className="item">
             <HelpIcon />
             <span>Помощь</span>

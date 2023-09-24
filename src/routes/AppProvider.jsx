@@ -7,7 +7,8 @@ import Add from "../components/components/Form/Add";
 import TopicDetails from "../components/components/TopicDetails/TopicDetails";
 import Test from "../components/components/Test/Test";
 import Article from "../components/components/Articles/Articles";
-import { Help } from "@mui/icons-material";
+import { Profile } from "../components/pages/profile/Profile";
+import Help from "../components/Help/Help";
 function RouterProvider() {
   return (
     <div>
@@ -15,7 +16,7 @@ function RouterProvider() {
       <Routes>
         <Route path="/" element={<Home/>} />
         {/* <Route path="/home" element={<Main />} /> */}
-        <Route path="/help" element={<Help/>} />
+        <Route path="/help" element={<Help />} />
         <Route path="/article" element={<Article/>} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login/>} />
@@ -23,6 +24,7 @@ function RouterProvider() {
         <Route path="/details/:id" element={<TopicDetails />} />
         <Route path="/tests" element={<Test />} />
         <Route path="/articles" element={<Article />} />
+        <Route path="/profile" element={<Profile/>} />
       </Routes>
     </div>
   );
