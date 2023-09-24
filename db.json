@@ -1,11 +1,83 @@
 {
   "users": [
     {
-      "firstName": "Altynai",
-      "lastName": "Imanalieva",
-      "email": "i.altysha@mail.ru",
-      "password": "Aslanio123*",
+      "firstName": "Feruz",
+      "lastName": "ilkujhgn",
+      "email": ";lkjh@mail.ru",
+      "password": "1234",
       "id": 1
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Hopkins",
+      "email": "emily@gmail.com",
+      "password": "qwerty",
+      "id": 2
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "J",
+      "email": "ema@mail.ru",
+      "password": "123fg",
+      "id": 3
+    },
+    {
+      "firstName": "Nursultan",
+      "lastName": "A",
+      "email": "nurs@mail.ru",
+      "password": "asdf12",
+      "id": 4
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "firstName": "Sasha",
+      "lastName": "Ivaniv",
+      "email": "gh@mail.ru",
+      "password": "gdhsu1",
+      "id": 6
+    }
+  ],
+  "topics": [
+    {
+      "title": "Дороги в Кыргызстане",
+      "desc": "Главными проблемами в сфере автомобильных дорог являются систематическая недостаточность финансирования дорожной отрасли, зависимость бюджета дорожного сектора от внешних источников финансирования и слабость администрирования дорожной отрасли.",
+      "solution": "В различных странах мира проблему финансирования дорожного строительства и ремонта решают по-разному. Наиболее действенным, с точки зрения мирового опыта, является введение платы за проезд по автомагистралям или дорогам общего пользования различных категорий, т.е. переход к принципу «пользователь платит».",
+      "image": "https://www.akchabar.kg/media/news/c9680cf7-dbeb-4ab5-ac63-39e6a0d4890a.jpg.850x445_q82_crop.jpg",
+      "id": 1
+    },
+    {
+      "title": "Слишком жарко",
+      "desc": "Летние условия в Кыргызстане с высокой температурой и сухостью воздуха могут создавать некоторые неудобства для гуляния и активного отдыха на улице, поэтому важно принимать предосторожности и уделять внимание защите от жары и обезвоживания.",
+      "solution": "Я предлагаю, чтобы государство рассмотрело возможность проведения ежедневных операций, при которых бы в воздух поднималось 20 самолетов для распыления воды по всей территории Кыргызстана. Это могло бы создать более комфортные условия для активных прогулок и выходов на улицу, уменьшая воздействие жары и сухости воздуха..",
+      "image": "https://1prof.by/wp-content/uploads/2022/06/jhara-0906.jpg",
+      "id": 2
+    },
+    {
+      "title": "Недестаток питьевой воды",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deserunt totam porro id exercitationem illum dolorem vero alias fugiat sapiente est fuga dolore, nihil accusamus facere commodi deleniti similique natus.",
+      "solution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deserunt totam porro id exercitationem illum dolorem vero alias fugiat sapiente est fuga dolore, nihil accusamus facere commodi deleniti similique natus.",
+      "image": "https://gdb.rferl.org/22607624-81F5-4811-A735-593A0AFF3281_mw800.jpg",
+      "id": 3
+    },
+    {
+      "title": "New topic",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deserunt totam porro id exercitationem illum dolorem vero alias fugiat sapiente est fuga dolore, nihil accusamus facere commodi deleniti similique natus.",
+      "solution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deserunt totam porro id exercitationem illum dolorem vero alias fugiat sapiente est fuga dolore, nihil accusamus facere commodi deleniti similique natus.",
+      "image": "https://i2.wp.com/lifenews.kg/wp-content/uploads/2022/02/N1-1.jpg?fit=1024%2C576&ssl=1",
+      "id": 4
+    },
+    {
+      "title": "Закон",
+      "desc": "Дорожные знаки",
+      "solution": "Увеличить количество дорожных знаков",
+      "image": "https://kg.all.biz/img/kg/catalog/5378.png",
+      "id": 5
     }
   ]
 }

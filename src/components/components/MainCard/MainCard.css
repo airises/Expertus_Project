@@ -1,0 +1,136 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 20px;
+	overflow: hidden;
+}
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 30px;
+    background-color: #F1F2F7;
+}
+.search input{
+    border: none;
+    width: 500px;
+    background-color: transparent;
+    color: #797474;
+    padding: 5px;
+}
+/* .article{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	min-width: 288px;
+	max-width: 288px;
+	width: 100%;
+	border: 1px solid orange;
+	border-radius: 12px;
+	padding: 10px;
+	transition: 0.3s ease-in;
+}
+.article:hover{
+	transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px){
+	.article{
+		max-width: 700px;
+    }
+}
+
+.article__date-published{
+	font-size: 14px;
+	font-weight: 600;
+	color: #797474;
+}
+
+.article__title{
+	font-size: 16px;
+	font-weight: 700;
+	color: #615c5c;
+}
+
+.article__title h3{
+    color: rgba(241, 164, 21, 0.959);
+}
+.article__title span{
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(230, 43, 43);
+}
+
+.article__content{
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto 1fr;
+	gap: 20px;
+}
+@media screen and (min-width: 768px){
+	.article__content{
+		grid-template-columns: 256px 1fr;
+		grid-template-rows: auto;
+    }
+}
+.article__image > img{
+	border-radius: 4px;
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+}
+.article__title > a{
+	text-decoration: none;
+	color: inherit;
+	display: -webkit-box;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.details{
+	background-color: rgb(75, 211, 75);
+	color: white;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+} */
+.addBtn{
+	background-color: orange;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	padding: 5px;
+	cursor: pointer;
+}
+.btnContainer{
+	display: flex;
+	gap: 20px;
+	margin-top: 55px;
+}
+.paginationBtn{
+	background-color: orange;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	padding: 5px;
+	cursor: pointer;
+}
